@@ -25,7 +25,7 @@ color: white;
 
 }
 
-.post_{
+.post_, .announcement{
 width: 50%;
 margin: 3%;
 /*margin-left: -0.6%;*/
@@ -40,17 +40,28 @@ border-bottom: 5px solid #6c6c6c;
 border-radius: 5px;
 
 }
+.announcement{
+background-color: rgba(88,28, 69, 0.6); /*#581c45 as rgba to avoid pesky opacity issues*/;
+
+border-top: 5px solid  #581c45;
+border-bottom: 5px solid  #581c45;
+
+
+}
+
 .title{
 opacity: 1;
 font-size: 1.25em;
 width: 100%;
-
+padding-left: 2px;
 height: 3vh;
-padding-bottom: 1vh;
+padding-bottom: 10px;
 font-family: serif;
 
 border-bottom: 3px solid rgb(71,71,71);
 }
+
+
 .content{
 font-family: Open Sans;
 margin-left: 10%;
