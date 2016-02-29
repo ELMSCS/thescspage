@@ -1,0 +1,30 @@
+[
+    {
+        "author": "John Stockton",
+        "datePublished": "10/02/13",
+        "title": "Example Title",
+        "text": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor leo ut nisi blandit, sit amet gravida massa blandit. Mauris eget est commodo, sodales arcu nec, sodales sapien. Integer non maximus nunc, at sodales dui. Mauris non interdum urna. Nunc blandit, eros nec ultrices lacinia, ante odio porta quam, nec suscipit metus mauris et ante. Maecenas ligula magna, bibendum id fermentum in, bibendum sed ipsum. Integer aliquam massa id ante pellentesque bibendum. In eget purus luctus, ultricies leo in, lacinia sapien. Pellentesque ultrices metus id nunc lacinia, ac sagittis urna finibus. Nam imperdiet suscipit cursus. Nulla et scelerisque nunc. Vivamus malesuada nibh tortor, at elementum orci facilisis vel. Cras ac posuere lacus. Quisque a orci eu urna placerat pharetra. Vivamus sem leo, fermentum sodales venenatis sed, aliquam at ante. Praesent pellentesque consectetur augue, nec lobortis lectus vulputate sit amet. Vestibulum non justo quam. Proin id fringilla leo. Nullam in lectus ante. Phasellus quis tincidunt urna. Suspendisse neque diam, pellentesque non aliquam vel, vulputate nec ipsum."
+        ],
+        "featured": true
+    },
+    {
+        "author": "Chris Paul",
+        "datePublished": "03/16/13",
+        "title": "Another One",
+        "text": [
+            "Integer non maximus nunc, at sodales dui. Mauris non interdum urna. Nunc blandit, eros nec ultrices lacinia, ante odio porta quam, nec suscipit metus mauris et ante. Maecenas ligula magna, bibendum id fermentum in, bibendum sed ipsum. Integer aliquam massa id ante pellentesque bibendum. Mauris eget est commodo, sodales arcu nec, sodales sapien. Integer non maximus nunc, at sodales dui. Mauris non interdum urna."
+        ],
+        "featured": false
+    },
+    {
+        "author": "LeBron James",
+        "datePublished": "12/15/14",
+        "title": "Speed Bumps on Highways: 'Let's try it out!'",
+        "text": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean auctor leo ut nisi blandit, sit amet gravida massa blandit. Mauris eget est commodo, sodales arcu nec, sodales sapien. Integer non maximus nunc, at sodales dui. Mauris non interdum urna. Nunc blandit, eros nec ultrices lacinia, ante odio porta quam, nec suscipit metus mauris et ante. Maecenas ligula magna, bibendum id fermentum in, bibendum sed ipsum. Integer aliquam massa id ante pellentesque bibendum. In eget purus luctus, ultricies leo in, lacinia sapien. Pellentesque ultrices metus id nunc lacinia, ac sagittis urna finibus. Nam imperdiet suscipit cursus. Nulla et scelerisque nunc. Vivamus malesuada nibh tortor, at elementum orci facilisis vel. Cras ac posuere lacus. Quisque a orci eu urna placerat pharetra. Vivamus sem leo, fermentum sodales venenatis sed, aliquam at ante. Praesent pellentesque consectetur augue, nec lobortis lectus vulputate sit amet. Vestibulum non justo quam. Proin id fringilla leo. Nullam in lectus ante. Phasellus quis tincidunt urna. Suspendisse neque diam, pellentesque non aliquam vel, vulputate nec ipsum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer sit amet commodo diam.",
+            "Aliquam id tempus eros. Phasellus malesuada maximus nulla, ac laoreet nisi. Integer non velit varius, gravida mauris nec, elementum quam. Suspendisse convallis purus suscipit finibus tristique. Donec maximus, nisi eget accumsan imperdiet, erat sem molestie odio, sed vehicula arcu ligula et eros. Nulla enim lorem, pellentesque vel purus sit amet, hendrerit dictum leo. Nulla et dolor ac lorem fringilla vehicula ac nec ex. Nam viverra lacinia purus at mollis. Nam malesuada ipsum et lacus lacinia iaculis. Pellentesque porta scelerisque ligula quis imperdiet. Aenean vitae tellus bibendum, porta mauris nec, volutpat massa. Etiam purus velit, tristique et efficitur in, aliquet non orci. Vivamus metus nisl, lacinia a massa at, bibendum efficitur mauris. In vitae iaculis libero. Integer nec rhoncus erat, vel ullamcorper arcu. Nulla consectetur efficitur tellus, vitae finibus mauris rutrum eu. Nulla facilisi. Curabitur blandit sit amet augue id pharetra. Aenean ut justo euismod, aliquam nibh ut, gravida enim. Praesent tellus urna, pellentesque in ligula ac, consectetur ultrices lorem. Cras erat ligula, rutrum nec velit eu, tristique molestie libero. Nam lacus metus, scelerisque vel venenatis ac, pellentesque at erat. Ut suscipit mauris in commodo congue. Aliquam erat volutpat. Cras pretium facilisis consequat. In sit amet condimentum ipsum, in ornare nulla. Nunc in accumsan est. Morbi convallis blandit massa, id suscipit purus blandit sit amet. Donec mi tellus, gravida eu mauris sed, scelerisque semper enim. Cras aliquet massa non metus luctus sagittis."
+        ],
+        "featured": true
+    }
+]

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html ng-app="cmsblog">
+    <head>
+        <title>CMS Blog</title>
+        <!-- CSS -->
+        <!-- Materialize -->
+        <link href="css/materialize.min.css" rel="stylesheet"/>
+        <!-- Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:400,300,700' rel='stylesheet' type='text/css'>
+        <!-- Custom Styles -->
+        <link href="css/style.css" rel="stylesheet"/>
+
+        <!-- JS -->
+        <!-- jQuery -->
+        <script src="js/jquery-2.2.0.min.js"></script>
+        <!-- Script -->
+        <script src="js/script.js"></script>
+        <!-- AngularJS -->
+        <script src="js/angular.min.js"></script>
+        <!-- App -->
+        <script src="js/app.js"></script>
+    </head>
+    <body style="background-color: #ddd;" ng-controller="BlogController">
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                    <a class="brand-logo" href="index.html">Foo Bar</a>
+                    <ul class="right hide-on-med-and-down" id="nav-mobile">
+                        <li>
+                            <a href="index.html">Posts</a>
+                        </li>
+                        <li class="active">
+                            <a href="featured.html">Featured</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="row" ng-repeat="post in posts" ng-show="post.featured">
+                <div class="featured col m12" style="padding: 20px 30px;">
+                    <p class="title">{{post.title}}</p>
+                    <p class="author">By: {{post.author}}</p>
+                    <p class="date">{{post.datePublished}}</p>
+                    <p class="text">{{post.text}}</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

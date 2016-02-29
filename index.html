@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html ng-app="cmsblog">
+    <head>
+        <title>CMS Blog</title>
+        <!-- CSS -->
+        <!-- Materialize -->
+        <link href="css/materialize.min.css" rel="stylesheet"/>
+        <!-- Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700|Roboto:400,300,700' rel='stylesheet' type='text/css'>
+        <!-- Custom Styles -->
+        <link href="css/style.css" rel="stylesheet"/>
+
+        <!-- JS -->
+        <!-- jQuery -->
+        <script src="js/jquery-2.2.0.min.js"></script>
+        <!-- Scripts -->
+        <script src="js/script.js"></script>
+        <!-- AngularJS -->
+        <script src="js/angular.min.js"></script>
+        <!-- App -->
+        <script src="js/app.js"></script>
+    </head>
+    <body style="background-color: #ddd;" ng-controller="BlogController">
+        <!-- Navbar -->
+        <div class="navbar-fixed">
+            <nav>
+                <div class="nav-wrapper">
+                    <a class="brand-logo" href="index.html">Foo Bar</a>
+                    <ul class="right hide-on-med-and-down" id="nav-mobile">
+                        <li class="active">
+                            <a href="index.html">Posts</a>
+                        </li>
+                        <li>
+                            <a href="featured.html">Featured</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- Posts -->
+        <div class="container">
+            <div class="row">
+                <div id="posts" class="col m8">
+                    <div class="post" ng-repeat="post in posts">
+                        <p class="title">{{post.title}}</h2>
+                        <p class="author">By: {{post.author}}</p>
+                        <p class="date">{{post.datePublished}}</p>
+                        <p class="text">{{post.text}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
